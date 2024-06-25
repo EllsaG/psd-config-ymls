@@ -1,18 +1,25 @@
-spring:
-  cloud:
+logging:
+  level:
+    org.springframework.security: INFO
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 20000
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+feign:
+  client:
     config:
-      server:
-        native:
-          search-locations: classpath:/services
-  profiles:
-    active: native
-  security:
-    user:
-      password: admin
-      name: user
-
-
-server:
-  port: 8001
-
-
+      default:
+        connectTimeout: 160000000
+        readTimeout: 160000000
