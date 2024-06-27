@@ -14,8 +14,6 @@ eureka:
   server:
     enable-self-preservation: false
   client:
-    register-with-eureka: false
-    fetch-registry: false
     service-url:
       defaultZone: https://app-514208b4-56d5-4a46-b320-2b5e81b4351a.cleverapps.io/
 
