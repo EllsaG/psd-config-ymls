@@ -11,6 +11,8 @@ hystrix:
             timeoutInMilliseconds: 20000
 
 eureka:
+  server:
+    enable-self-preservation: false
   client:
     register-with-eureka: false
     fetch-registry: false
