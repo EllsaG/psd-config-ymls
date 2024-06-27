@@ -15,7 +15,7 @@ eureka:
     enable-self-preservation: false
   client:
     service-url:
-      defaultZone: https://app-514208b4-56d5-4a46-b320-2b5e81b4351a.cleverapps.io/
+      defaultZone: https://app-514208b4-56d5-4a46-b320-2b5e81b4351a.cleverapps.io/eureka/
 
 feign:
   client:
