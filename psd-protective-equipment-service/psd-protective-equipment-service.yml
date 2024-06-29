@@ -1,6 +1,4 @@
 server:
-  servlet:
-    context-path: /protectiveEquipment
   port: 8055
 spring:
   mvc:
