@@ -17,7 +17,9 @@ spring:
     properties:
       hibernate:
     show-sql: true
-
+  config:
+    activate:
+      on-profile: local
   datasource:
     platform: postgres
     url: jdbc:postgresql://localhost:5432/postgres
