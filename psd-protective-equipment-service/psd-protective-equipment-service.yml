@@ -17,6 +17,9 @@ spring:
     properties:
       hibernate:
     show-sql: true
+    
+---
+
   config:
     activate:
       on-profile: local
