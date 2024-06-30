@@ -1,11 +1,12 @@
 spring:
-  gateway:
-    mvc:
-      routes:
-        - id: psd-protective-equipment-service
-          uri: https://app-d60ad30b-8351-428f-bcbd-eec45a1ea266.cleverapps.io/
-          predicates:
-            - Path=/protectiveEquipment/*
+  cloud:
+    gateway:
+      mvc:
+        routes:
+          - id: psd-protective-equipment-service
+            uri: https://app-d60ad30b-8351-428f-bcbd-eec45a1ea266.cleverapps.io/
+            predicates:
+              - Path=/protectiveEquipment/*
 
 server:
   port: 8989
