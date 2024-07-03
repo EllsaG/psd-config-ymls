@@ -7,6 +7,10 @@ spring:
             uri: https://app-d60ad30b-8351-428f-bcbd-eec45a1ea266.cleverapps.io/
             predicates:
               - Path=/protectiveEquipment/*
+          - id: psd-start-information-service
+            uri: https://app-5efdf0d3-5102-4439-ab03-db3fb143020f.cleverapps.io/
+            predicates:
+              - Path=/startInformation/*
 
 server:
   port: 8989
