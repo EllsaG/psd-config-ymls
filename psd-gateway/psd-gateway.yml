@@ -8,7 +8,7 @@ spring:
             predicates:
               - Path=/protectiveEquipment/*
           - id: psd-start-information-service
-            uri: https://app-5efdf0d3-5102-4439-ab03-db3fb143020f.cleverapps.io/
+            uri: https://app-5a5451d7-60ea-4d7e-a097-5e1edfe4334e.cleverapps.io/
             predicates:
               - Path=/startInformation/*
 
