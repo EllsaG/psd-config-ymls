@@ -11,6 +11,10 @@ spring:
             uri: https://app-5efdf0d3-5102-4439-ab03-db3fb143020f.cleverapps.io/
             predicates:
               - Path=/startInformation/*
+          - id: psd-compensation-device-service
+            uri: https://app-13b48729-6e00-45d0-9e3c-403547d74f06.cleverapps.io/
+            predicates:
+              - Path=/compensationDevice/*
 
 server:
   port: 8989
