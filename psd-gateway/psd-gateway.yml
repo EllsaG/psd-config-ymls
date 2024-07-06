@@ -15,6 +15,10 @@ spring:
             uri: https://app-13b48729-6e00-45d0-9e3c-403547d74f06.cleverapps.io/
             predicates:
               - Path=/compensationDevice/*
+          - id: psd-power-transformers-service
+            uri: https://app-fdf88c24-09a2-4184-bfee-61e2e9b905ff.cleverapps.io/
+            predicates:
+              - Path=/powerTransformers/*
 
 server:
   port: 8989
