@@ -4,21 +4,33 @@ spring:
       mvc:
         routes:
           - id: psd-protective-equipment-service
-            uri: https://app-d60ad30b-8351-428f-bcbd-eec45a1ea266.cleverapps.io/
+            uri: https://app-1f210d17-e749-47a2-a550-dcf7af8016b9.cleverapps.io/
             predicates:
               - Path=/protectiveEquipment/*
           - id: psd-start-information-service
-            uri: https://app-5a5451d7-60ea-4d7e-a097-5e1edfe4334e.cleverapps.io/
+            uri: https://app-842dd090-b25b-4f6a-a0bf-51e458a8ede8.cleverapps.io/
             predicates:
               - Path=/startInformation/*
           - id: psd-compensation-device-service
-            uri: https://app-13b48729-6e00-45d0-9e3c-403547d74f06.cleverapps.io/
+            uri: https://app-73729ab1-f65b-47d9-8c55-47813c6d6300.cleverapps.io/
             predicates:
               - Path=/compensationDevice/*
           - id: psd-power-transformers-service
-            uri: https://app-fdf88c24-09a2-4184-bfee-61e2e9b905ff.cleverapps.io/
+            uri: https://app-a278c7a4-f77b-4e1d-b23f-2dc39ab646d7.cleverapps.io/
             predicates:
               - Path=/powerTransformers/*
+          - id: psd-high-volt-cables-service
+            uri: https://app-7c5a97be-d05d-4f44-8270-453e84e90be7.cleverapps.io/
+            predicates:
+              - Path=/highVoltCables/*
+          - id: psd-lighting-information-service
+            uri: https://app-3064b0d2-501e-4621-9b91-d84e045368d6.cleverapps.io/
+            predicates:
+              - Path=/lightingInformation/*
+          - id: psd-full-information-service
+            uri: https://app-ce47b858-c1ba-42ab-b33e-9730fa533ff2.cleverapps.io/
+            predicates:
+              - Path=/fullInformation/*
 
 server:
   port: 8989
